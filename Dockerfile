@@ -15,6 +15,6 @@ WORKDIR /app
 
 COPY --from=build /app/apipoli .
 
-EXPOSE 8082
+EXPOSE 8032
 
 CMD [ "./apipoli" ]
